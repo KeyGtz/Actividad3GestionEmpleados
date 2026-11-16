@@ -1,8 +1,3 @@
-/**
- * Clase base que representa a un empleado.
- * Contiene los datos y comportamientos comunes que pueden reutilizar
- * las clases derivadas mediante herencia.
- */
 public class Empleado {
     protected String nombre;
     protected String puesto;
@@ -31,8 +26,6 @@ public class Empleado {
     public double getSalario() {
         return salario;
     }
-
-    // Método que las clases hijas pueden reutilizar o sobrescribir.
     public void mostrarInformacion() {
         System.out.println("Nombre: " + nombre);
         System.out.println("Puesto: " + puesto);

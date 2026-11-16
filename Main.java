@@ -1,7 +1,3 @@
-/**
- * Programa principal.
- * Crea objetos de las clases derivadas y prueba la herencia.
- */
 public class Main {
     public static void main(String[] args) {
 

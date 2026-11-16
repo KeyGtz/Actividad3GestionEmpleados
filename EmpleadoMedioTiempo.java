@@ -1,7 +1,3 @@
-/**
- * Clase derivada de Empleado.
- * Reutiliza los atributos y métodos de la clase base.
- */
 public class EmpleadoMedioTiempo extends Empleado {
     private int horasSemanales;
     private double pagoPorHora;
@@ -12,13 +8,9 @@ public class EmpleadoMedioTiempo extends Empleado {
         this.horasSemanales = horasSemanales;
         this.pagoPorHora = pagoPorHora;
     }
-
-    // Método exclusivo de la clase EmpleadoMedioTiempo.
     public double calcularPagoSemanal() {
         return horasSemanales * pagoPorHora;
     }
-
-    // Se sobrescribe el método heredado.
     @Override
     public void mostrarInformacion() {
         super.mostrarInformacion();
