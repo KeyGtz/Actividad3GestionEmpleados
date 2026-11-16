@@ -10,7 +10,7 @@ public class Main {
         EmpleadoMedioTiempo empleado3 = new EmpleadoMedioTiempo(
                 "Ana López", "Auxiliar", "Ventas", 8000, 20, 120);
 
-        System.out.println("===== GESTIÓN DE EMPLEADOS =====");
+        System.out.println("===== GESTIÓN DE EMPLEADOS - ACTIVIDAD 3 =====");
 
         System.out.println("\n--- Empleado 1 ---");
         empleado1.mostrarInformacion();
